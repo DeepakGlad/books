@@ -1,0 +1,19 @@
+{
+  "books": [
+    {
+      "name": "httt",
+      "id": 1
+    },
+    {
+      "name": "hai 3",
+      "id": 3
+    }
+  ],
+  "phone": [
+    {
+      "Title": "redmi",
+      "Pages": "note 13",
+      "id": 1
+    }
+  ]
+}

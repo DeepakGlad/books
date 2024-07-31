@@ -1,0 +1,32 @@
+get http://localhost:3001/books HTTP/1.1 
+Content-Type: application/json
+
+###
+
+post http://localhost:3001/books HTTP/1.1 
+Content-Type: application/json
+
+{
+    "Title": "Harry",
+    "Pages": "60"
+}
+
+
+###
+
+post http://localhost:3001/phone HTTP/1.1 
+Content-Type: application/json
+
+{
+    "Title": "redmi",
+    "Pages": "note 13"
+}
+
+###
+
+delete http://localhost:3001/phone HTTP/1.1 
+Content-Type: application/json
+
+{
+    "Title": "hey",
+}
