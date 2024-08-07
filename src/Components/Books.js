@@ -20,12 +20,12 @@ const Books = ({book, onDelete, onEdit, id}) => {
         showedit(!edit);
     }
 
-      const editview = edit ?  <BooksEdit onEdit={handleeditbooks} /> :  <button onClick={handleEdit} >Edit</button>;
+      const editview = edit ?  <BooksEdit onEdit={handleeditbooks} /> :  <button onClick={handleEdit} class='text-red-500 hover:text-grey-700 focus:outline-none border'>Edit</button>;
 
     return <div>
         
        <p> {book} </p>
-       <button onClick={handleDelete}>Delete</button>
+       <button onClick={handleDelete} class='text-red-500 hover:text-red-700 focus:outline-none border'>Delete</button>
 
        {editview}
         </div>;
