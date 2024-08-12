@@ -17,11 +17,22 @@ const { addBooks} = useBooksContext();
     }
     
     return <div class='container mx-auto p-4 max-w-md'>
-        <form onSubmit={onSubmit}>
-        <input onChange={handleChnage} value={book} class='w-full p-2 mb-4 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500'></input>
-        <button type="submit" class='text-green-500 hover:text-green-700 focus:outline-none border'>Add</button>
-        </form>
-    </div>;
+    <form onSubmit={onSubmit} class='flex flex-col space-y-4'>
+        <input
+            onChange={handleChnage}
+            value={book}
+            class='w-full p-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500'
+            placeholder='Add a new task'
+        />
+        <button
+            type="submit"
+            class='w-full bg-green-500 text-white py-2 px-4 rounded-lg shadow-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500'
+        >
+            Add
+        </button>
+    </form>
+</div>
+
 }
 
 export default BooksCreate;
