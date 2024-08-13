@@ -1,10 +1,6 @@
 {
   "books": [
     {
-      "name": "Add learned item in note",
-      "id": 1
-    },
-    {
       "name": "follow instruction ",
       "id": 3
     },
@@ -15,6 +11,10 @@
     {
       "name": "list all doubts ",
       "id": 5
+    },
+    {
+      "name": "hello",
+      "id": 6
     }
   ],
   "phone": [
